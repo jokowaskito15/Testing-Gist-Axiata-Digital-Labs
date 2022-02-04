@@ -1,0 +1,6 @@
+1. Buka project pada IDE Eclipse
+2. Install TestNG for Eclipse dari Eclipse Marketplace
+3. Klik >src/test/java
+4. Klik kanan pada class StepDefinition.java
+5. Arahkan kursos ke Run As
+6. Pilih TestNG Test
