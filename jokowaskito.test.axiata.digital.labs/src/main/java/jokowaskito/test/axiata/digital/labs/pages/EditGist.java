@@ -35,7 +35,7 @@ public class EditGist {
 	@FindBy(css = "#code-editor > div > pre")
 	private WebElement txtPresentation;
 	
-	@FindBy(css = "#edit_gist_114518596 > div > div.form-actions > button")
+	@FindBy(xpath = "//div[@class='form-actions']/button")
 	private WebElement buttonUpdate;
 	
 	public void editGist(String descriptionedit, String filenameedit, String presentationedit) {
